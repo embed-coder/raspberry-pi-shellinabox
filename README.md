@@ -17,7 +17,7 @@ sudo apt install openssl shellinabox
 ```bash
 sudo apt-get install libssl0.9.8 libpam0g openssl
 ```
-## 2. Edit configuration
+## 3. Edit configuration
 Actually, all of configuration I leave it default. Pay attention that the listening port is 4200
 ```bash
 vi /etc/default/shellinabox
