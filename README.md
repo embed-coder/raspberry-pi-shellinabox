@@ -17,6 +17,9 @@ sudo apt install openssl shellinabox
 ```bash
 sudo apt-get install libssl0.9.8 libpam0g openssl
 ```
+Once both shellinabox and openssl were installed, a self certificate will be generated and used to encrypt the https connection.
+
+Cert file can be found unber directory "/var/lib/shellinabox/certificate.pem"
 ## 3. Edit configuration
 Actually, all of configuration I leave it default. Pay attention that the listening port is 4200
 ```bash
