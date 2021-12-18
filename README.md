@@ -42,3 +42,18 @@ SHELLINABOX_PORT=4200
 #   Firefox on Linux/x86_64.
 SHELLINABOX_ARGS="--no-beep"
 ```
+## 4. Running
+Access shellinabox by https url.
+Open browser and browse to url "https://\<raspberry pi IP address\>:4200".
+
+Accept the certificate from shellinabox on raspberry pi.
+  
+![plot](./raspberry-pi-shellinabox-https-accept.png)
+
+Login by user name and password on your raspberry pi or the one you set in the configuration file in step 3
+
+![plot](./raspberry-pi-shellinabox-log-in.png)
+
+Tada 🎉🎉, let enjoy
+
+![plot](./raspberry-pi-shellinabox-logged-in.png)
